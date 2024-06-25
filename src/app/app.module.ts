@@ -3,10 +3,13 @@ import { BrowserModule, provideClientHydration } from '@angular/platform-browser
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { InicioComponent } from './Components/inicio/inicio.component';
+import { TableUnoComponent } from './Components/table-uno/table-uno.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TableUnoComponent
   ],
   imports: [
     BrowserModule,
